@@ -13,5 +13,15 @@ function fillingnotcomplete() {
     alert("Please fill the requirments");
   } else {
     alert("Thank You for your application");
+    saveinfo();
   }
+}
+function saveinfo() {
+  var fname = document.getElementById("fname").value;
+  var lname = document.getElementById("lname").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  var gender = document.getElementById("gender").value;
+  var country = document.getElementById("country").value;
+  var data = [fname, lname, email, password, gender, country];
 }
