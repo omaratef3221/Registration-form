@@ -14,6 +14,7 @@ function fillingnotcomplete() {
   } else {
     alert("Thank You for your application");
     saveinfo();
+    window.location.href = "Thankyoupage.html";
   }
 }
 function saveinfo() {

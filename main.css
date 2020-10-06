@@ -22,6 +22,7 @@
   border: 5px solid lightblue;
   padding: 75px;
   display: flex;
+  background-color: lavender;
 }
 .Reg {
   font-size: 50px;
@@ -31,6 +32,8 @@
   color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+  border: 5px solid black;
+  background-color: lavender;
 }
 input[type="text"],
 select,
